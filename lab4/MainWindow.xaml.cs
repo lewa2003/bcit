@@ -72,7 +72,7 @@ namespace lab4
             {
                 if (s.ToUpper().Contains(word.ToUpper()))
                 {
-                    resultListBox.Items.Add(s);
+                    searchResult.Add(new ItemOfList() { Word = s });
                 }
             }
             time.Stop();
