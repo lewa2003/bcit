@@ -1,4 +1,4 @@
-namespace lab.figures
+namespace lab2.figures
 {
     public abstract class Figure
     {
